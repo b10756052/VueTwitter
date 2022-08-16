@@ -1,9 +1,16 @@
-<script setup>
- let name="search";
+<script setup > 
+ const props = defineProps({
+  msg: String
+})
+
+ 
+
 </script>
 
 <template>  
-   <main>
+ 
+   <main>    
+     <h1>{{parseData}}</h1>
     <div class="card m-1 border-dark" style="max-width:1000px" >
         <div class="row g-0 d-flex">
             <div class="col-4 col-md-3 d-flex" style="padding:0;">
