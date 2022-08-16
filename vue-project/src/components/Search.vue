@@ -24,6 +24,7 @@
         console.log("抓取成功");       
         var parseData = await dataFetch.json();
         console.log(parseData);
+        
       }catch(e){
          console.log(e);
       }

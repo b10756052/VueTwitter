@@ -7,7 +7,7 @@
 <template>    
    <main class="appMain">
     <Card :msg=msg />   
-    <button   type="button" class="btn btn-dark w-50 w-md-100 mx-auto my-3 my-md-0">Load More</button>
+    <button type="button" class="btn btn-dark w-50 w-md-100 mx-auto my-3 my-md-0">Load More</button>
   </main>
   
 </template>
