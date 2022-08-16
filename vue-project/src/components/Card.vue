@@ -2,7 +2,6 @@
  const props = defineProps({
   msg: String
 })
-
  
 
 </script>
