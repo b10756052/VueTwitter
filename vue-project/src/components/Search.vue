@@ -36,7 +36,7 @@
     }
 
     let ClickSearch= async()=>{      
-      let queryURL =`https://api.twitter.com/2/tweets/search/recent?query=${searchKeywords}&tweet.fields=created_at&expansions=author_id,attachments.media_keys&media.fields=&user.fields=profile_image_url`
+      let queryURL =`https://api.twitter.com/2/tweets/search/recent?query=${searchKeywords}&tweet.fields=created_at,entities&expansions=author_id,attachments.media_keys&media.fields=&user.fields=profile_image_url`
       let Data= await DisplayPost(queryURL)  
       console.log('sssssss',Data); 
       return Data   
