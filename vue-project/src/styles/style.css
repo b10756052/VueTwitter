@@ -48,7 +48,6 @@
   body #app main {
     margin-bottom: 0.5rem;
     max-width: 900px;
-    min-height: 88vh;
     max-height: 95vh;
     overflow: auto;
   }
@@ -70,10 +69,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-height: 74vh;
 }
 
 #app main {
-  min-height: 74vh;
   width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

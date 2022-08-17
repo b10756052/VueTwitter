@@ -33,7 +33,7 @@
             main {
                 margin-bottom: 0.5rem;
                 max-width: 900px;
-                min-height: 88vh;
+                // min-height: 30vh;
                 max-height: 95vh;
                 overflow: auto;
                 .card {
@@ -59,8 +59,9 @@
 #app {
     background-color: rgb(204, 216, 204);
     justify-content: center;
+    min-height: 74vh;
     main {
-        min-height: 74vh;
+        // min-height: 74vh;
         width: 100%;
         flex-direction: column;
         display: flex;
